@@ -1,0 +1,298 @@
+2025-03-02T16:11:14.329+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Starting Farm2marketApplication using Java 22.0.1 with PID 18328 (D:\Downloads\farm2market\farm2market\target\classes started by sriha in D:\Downloads\farm2market\farm2market)
+2025-03-02T16:11:14.351+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T16:11:14.413+05:30  INFO 18328 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-02T16:11:14.413+05:30  INFO 18328 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-02T16:11:15.615+05:30  INFO 18328 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T16:11:15.710+05:30  INFO 18328 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2025-03-02T16:11:16.775+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T16:11:16.803+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T16:11:16.803+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-02T16:11:16.907+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T16:11:16.907+05:30  INFO 18328 --- [Farm2market] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2494 ms
+2025-03-02T16:11:17.800+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T16:11:17.847+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T16:11:18.515+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e75e9e3
+2025-03-02T16:11:18.515+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T16:11:20.295+05:30  INFO 18328 --- [Farm2market] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:11:20.818+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T16:11:22.300+05:30  WARN 18328 --- [Farm2market] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T16:11:22.646+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2025-03-02T16:11:22.689+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-02T16:11:22.766+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-02T16:11:22.838+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-02T16:11:23.365+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-02T16:11:23.428+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T16:11:23.452+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Started Farm2marketApplication in 9.783 seconds (process running for 16.193)
+2025-03-02T16:11:32.340+05:30  INFO 18328 --- [Farm2market] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 56 class path changes (0 additions, 55 deletions, 1 modification)
+2025-03-02T16:11:32.342+05:30  INFO 18328 --- [Farm2market] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T16:11:32.354+05:30  INFO 18328 --- [Farm2market] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T16:11:32.354+05:30  INFO 18328 --- [Farm2market] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:11:32.369+05:30  INFO 18328 --- [Farm2market] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T16:11:32.383+05:30  INFO 18328 --- [Farm2market] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T16:11:32.487+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Starting Farm2marketApplication using Java 22.0.1 with PID 18328 (D:\Downloads\farm2market\farm2market\target\classes started by sriha in D:\Downloads\farm2market\farm2market)
+2025-03-02T16:11:32.489+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T16:11:32.820+05:30  INFO 18328 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T16:11:32.822+05:30  INFO 18328 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-03-02T16:11:32.970+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T16:11:32.970+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T16:11:32.972+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-02T16:11:33.008+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T16:11:33.008+05:30  INFO 18328 --- [Farm2market] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+2025-03-02T16:11:33.078+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T16:11:33.078+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-03-02T16:11:33.100+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3861bf92
+2025-03-02T16:11:33.100+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-03-02T16:11:33.128+05:30  INFO 18328 --- [Farm2market] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:11:33.213+05:30  WARN 18328 --- [Farm2market] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T16:11:33.280+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2025-03-02T16:11:33.335+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-02T16:11:33.345+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-02T16:11:33.377+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-02T16:11:33.542+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-02T16:11:33.556+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T16:11:33.562+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Started Farm2marketApplication in 1.126 seconds (process running for 26.298)
+2025-03-02T16:11:33.572+05:30  INFO 18328 --- [Farm2market] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
+      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#viewNameTranslator matched:
+      - @ConditionalOnMissingBean (names: viewNameTranslator; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-03-02T16:11:39.290+05:30  INFO 18328 --- [Farm2market] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 55 class path changes (55 additions, 0 deletions, 0 modifications)
+2025-03-02T16:11:39.290+05:30  INFO 18328 --- [Farm2market] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T16:11:39.314+05:30  INFO 18328 --- [Farm2market] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T16:11:39.319+05:30  INFO 18328 --- [Farm2market] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:11:39.321+05:30  INFO 18328 --- [Farm2market] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-03-02T16:11:39.325+05:30  INFO 18328 --- [Farm2market] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-03-02T16:11:39.483+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Starting Farm2marketApplication using Java 22.0.1 with PID 18328 (D:\Downloads\farm2market\farm2market\target\classes started by sriha in D:\Downloads\farm2market\farm2market)
+2025-03-02T16:11:39.484+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T16:11:39.872+05:30  INFO 18328 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T16:11:39.920+05:30  INFO 18328 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 6 JPA repository interfaces.
+2025-03-02T16:11:40.114+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T16:11:40.114+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T16:11:40.114+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-02T16:11:40.164+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T16:11:40.164+05:30  INFO 18328 --- [Farm2market] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 674 ms
+2025-03-02T16:11:40.301+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T16:11:40.303+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-03-02T16:11:40.333+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41f1700d
+2025-03-02T16:11:40.333+05:30  INFO 18328 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-03-02T16:11:40.742+05:30  INFO 18328 --- [Farm2market] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:11:41.025+05:30  WARN 18328 --- [Farm2market] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T16:11:41.061+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2025-03-02T16:11:41.078+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-02T16:11:41.094+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-02T16:11:41.097+05:30 DEBUG 18328 --- [Farm2market] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-02T16:11:41.199+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-02T16:11:41.213+05:30  INFO 18328 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T16:11:41.222+05:30  INFO 18328 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Started Farm2marketApplication in 1.802 seconds (process running for 33.957)
+2025-03-02T16:11:41.224+05:30  INFO 18328 --- [Farm2market] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   WebMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport' org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2025-03-02T16:24:37.526+05:30  INFO 18328 --- [Farm2market] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T16:24:37.541+05:30  INFO 18328 --- [Farm2market] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T16:24:37.541+05:30  INFO 18328 --- [Farm2market] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:24:37.541+05:30  INFO 18328 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-03-02T16:24:37.557+05:30  INFO 18328 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-03-02T16:24:40.005+05:30  INFO 15252 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Starting Farm2marketApplication using Java 22.0.1 with PID 15252 (D:\Downloads\farm2market\farm2market\target\classes started by sriha in D:\Downloads\farm2market\farm2market)
+2025-03-02T16:24:40.005+05:30  INFO 15252 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T16:24:40.061+05:30  INFO 15252 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-02T16:24:40.061+05:30  INFO 15252 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-02T16:24:41.113+05:30  INFO 15252 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T16:24:41.197+05:30  INFO 15252 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 6 JPA repository interfaces.
+2025-03-02T16:24:42.176+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T16:24:42.194+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T16:24:42.194+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-02T16:24:42.254+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T16:24:42.254+05:30  INFO 15252 --- [Farm2market] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2187 ms
+2025-03-02T16:24:42.949+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T16:24:43.003+05:30  INFO 15252 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T16:24:43.460+05:30  INFO 15252 --- [Farm2market] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cda83d6
+2025-03-02T16:24:43.460+05:30  INFO 15252 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T16:24:45.153+05:30  INFO 15252 --- [Farm2market] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:24:45.668+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T16:24:47.269+05:30  WARN 15252 --- [Farm2market] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T16:24:47.574+05:30 DEBUG 15252 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2025-03-02T16:24:47.606+05:30 DEBUG 15252 --- [Farm2market] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-02T16:24:47.668+05:30 DEBUG 15252 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-02T16:24:47.747+05:30 DEBUG 15252 --- [Farm2market] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-02T16:24:48.223+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-02T16:24:48.268+05:30  INFO 15252 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T16:24:48.293+05:30  INFO 15252 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Started Farm2marketApplication in 8.952 seconds (process running for 9.565)
+2025-03-02T16:26:36.565+05:30  INFO 15252 --- [Farm2market] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T16:26:36.574+05:30  INFO 15252 --- [Farm2market] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T16:26:36.590+05:30  INFO 15252 --- [Farm2market] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:26:36.590+05:30  INFO 15252 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T16:26:36.607+05:30  INFO 15252 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T16:26:51.549+05:30  INFO 13256 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Starting Farm2marketApplication using Java 22.0.1 with PID 13256 (D:\Downloads\farm2market\farm2market\target\classes started by sriha in D:\Downloads\farm2market\farm2market)
+2025-03-02T16:26:51.549+05:30  INFO 13256 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T16:26:51.602+05:30  INFO 13256 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-02T16:26:51.602+05:30  INFO 13256 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-02T16:26:52.694+05:30  INFO 13256 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T16:26:52.789+05:30  INFO 13256 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
+2025-03-02T16:26:53.736+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T16:26:53.756+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T16:26:53.762+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-02T16:26:53.845+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T16:26:53.845+05:30  INFO 13256 --- [Farm2market] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2233 ms
+2025-03-02T16:26:54.560+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T16:26:54.577+05:30  INFO 13256 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T16:26:54.947+05:30  INFO 13256 --- [Farm2market] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a7732bd
+2025-03-02T16:26:54.947+05:30  INFO 13256 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T16:26:56.338+05:30  INFO 13256 --- [Farm2market] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:26:56.736+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T16:26:58.092+05:30  WARN 13256 --- [Farm2market] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T16:26:58.339+05:30 DEBUG 13256 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2025-03-02T16:26:58.379+05:30 DEBUG 13256 --- [Farm2market] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-02T16:26:58.431+05:30 DEBUG 13256 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-02T16:26:58.487+05:30 DEBUG 13256 --- [Farm2market] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-02T16:26:58.939+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-02T16:26:58.998+05:30  INFO 13256 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T16:26:59.013+05:30  INFO 13256 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Started Farm2marketApplication in 8.137 seconds (process running for 8.697)
+2025-03-02T16:35:04.101+05:30  INFO 13256 --- [Farm2market] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T16:35:04.124+05:30  INFO 13256 --- [Farm2market] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T16:35:04.127+05:30  INFO 13256 --- [Farm2market] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:35:04.127+05:30  INFO 13256 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T16:35:04.140+05:30  INFO 13256 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-02T16:35:08.179+05:30  INFO 9052 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Starting Farm2marketApplication using Java 22.0.1 with PID 9052 (D:\Downloads\farm2market\farm2market\target\classes started by sriha in D:\Downloads\farm2market\farm2market)
+2025-03-02T16:35:08.185+05:30  INFO 9052 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T16:35:08.237+05:30  INFO 9052 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-02T16:35:08.237+05:30  INFO 9052 --- [Farm2market] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-02T16:35:09.340+05:30  INFO 9052 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-02T16:35:09.423+05:30  INFO 9052 --- [Farm2market] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+2025-03-02T16:35:10.406+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-02T16:35:10.418+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-02T16:35:10.418+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-03-02T16:35:10.486+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-02T16:35:10.497+05:30  INFO 9052 --- [Farm2market] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2260 ms
+2025-03-02T16:35:11.082+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-02T16:35:11.103+05:30  INFO 9052 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-02T16:35:11.447+05:30  INFO 9052 --- [Farm2market] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b157861
+2025-03-02T16:35:11.449+05:30  INFO 9052 --- [Farm2market] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-02T16:35:12.820+05:30  INFO 9052 --- [Farm2market] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:35:13.246+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-03-02T16:35:14.614+05:30  WARN 9052 --- [Farm2market] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T16:35:14.893+05:30 DEBUG 9052 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 24 mappings in 'requestMappingHandlerMapping'
+2025-03-02T16:35:14.940+05:30 DEBUG 9052 --- [Farm2market] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-03-02T16:35:14.988+05:30 DEBUG 9052 --- [Farm2market] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-02T16:35:15.036+05:30 DEBUG 9052 --- [Farm2market] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-02T16:35:15.452+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-02T16:35:15.521+05:30  INFO 9052 --- [Farm2market] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-02T16:35:15.527+05:30  INFO 9052 --- [Farm2market] [restartedMain] c.f.application.Farm2marketApplication   : Started Farm2marketApplication in 7.988 seconds (process running for 8.54)
+2025-03-02T16:35:55.603+05:30  INFO 9052 --- [Farm2market] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-02T16:35:55.629+05:30  INFO 9052 --- [Farm2market] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-02T16:35:55.636+05:30  INFO 9052 --- [Farm2market] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-02T16:35:55.638+05:30  INFO 9052 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-02T16:35:55.646+05:30  INFO 9052 --- [Farm2market] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
