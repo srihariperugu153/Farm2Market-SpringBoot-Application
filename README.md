@@ -1,24 +1,69 @@
-# Farm2Market-SpringBoot-Application
-Application Overview
+# Farm2Market – Spring Boot Backend Application
 
-Farm to Market is based on ordering the farming product online. It allows farmers to upload their goods details (Rice, Millets, Pulses, Vegetables etc.,). The application also gives farmers information about the availability of Drones for spraying pesticides, Tractor, Other farming equipment in their nearest locations. Farm Equipment owners onboard their farming equipment through hire on rent basis to farmers. Trader (Bulk Buyer) will be able to reach out directly to farmers in procuring their goods. The following are the Use Cases for the Farm to Market application.
+## 📌 Overview
+Farm2Market is an online backend platform built using Spring Boot that connects farmers, equipment owners, and traders on a single digital marketplace. The application allows farmers to sell agricultural products online, rent farming equipment, and directly connect with bulk buyers (traders). It also enables equipment owners to onboard and rent farming equipment such as tractors and drones to nearby farmers.
 
-1. User Registration - Farmer, EquimentOwner and Trader can register themselves in the application by providing their username, password, mobile number, state and pincode
+The platform supports role-based access for Farmers, Equipment Owners, and Traders with complete product, equipment, booking, and order management workflows.
 
-2. User Login - Users should be able to login into the application by entering a correct user name and password along with the type of user
+---
 
-3. Farmer
+## 🛠 Tech Stack
+- Java 17  
+- Spring Boot  
+- Spring MVC  
+- Spring Data JPA  
+- Hibernate  
+- MySQL  
+- RESTful APIs  
+- Maven  
+- Postman (API Testing)  
 
-When the farmer logins, the farmer can see all the list of equipment registered by Equipment Owners. The farmer can also search the equipment based upon the available city. The farmer can book the equipment based on their availability and after that the farmer should return the equipment
+---
 
-Farmer can add their products in the application for the trader to purchase. The farmer only can add, edit and delete their products
+## 🚀 Core Features & Use Cases
 
-4. Equipment Owner
+### 🔹 User Management
+- Role-based user registration for:
+  - Farmer  
+  - Equipment Owner  
+  - Trader  
+- Secure login and logout functionality  
+- User profile information includes username, mobile number, state, and pincode  
 
-The equipment owner should have the priviledge to add or edit or delete the equipments
+---
 
-5. Trader
+### 🔹 Farmer Module
+- View and search available farming equipment by city  
+- Book equipment based on availability and return after usage  
+- Add, edit, and delete agricultural products (Rice, Millets, Pulses, Vegetables, etc.)  
+- Manage product listings for traders to place orders  
 
-Trader can search the farmer goods based on available city and place the orders
+---
 
-6. User Logout A user can logout of the application by clicking on 'Logout' button. Hershel can access the application functional only after logging in again.
+### 🔹 Equipment Owner Module
+- Add new farming equipment (Tractors, Drones, Sprayers, etc.)  
+- Edit and delete equipment details  
+- Manage availability of listed equipment for rental  
+
+---
+
+### 🔹 Trader Module
+- Search farmer products based on city and location  
+- Place bulk orders directly with farmers  
+- Track purchased goods  
+
+---
+
+## 🔹 Functional Highlights
+- Role-based access control for different user types  
+- Equipment availability and booking workflow  
+- Product listing and ordering system  
+- City-based search and filtering  
+- RESTful API design for all modules  
+
+---
+
+## ▶️ How to Run the Application
+1. Clone the repository  
+2. Configure MySQL database in `application.properties`  
+3. Run the application using:  
